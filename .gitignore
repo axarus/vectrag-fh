@@ -33,7 +33,7 @@ go.work.sum
 .vscode/
 
 # Production
-dist/
+# dist/
 
 # Cache Vite
 .vite
