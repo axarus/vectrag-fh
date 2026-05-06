@@ -26,4 +26,4 @@ jobs:
         run: go test ./... -cover
 
       - name: Build binary
-        run: CGO_ENABLED=0 go build -o bin/vectrag ./cmd/main.go
+        run: CGO_ENABLED=0 go build -o bin/vectrag ./cmd/vectrag/main.go
