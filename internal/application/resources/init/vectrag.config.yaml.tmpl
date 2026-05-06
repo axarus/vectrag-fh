@@ -1,0 +1,24 @@
+# VectraG Project Configuration
+# This file contains the global configuration for your VectraG project
+
+project:
+  name: {{.ProjectName}}
+  version: "1.0.0"
+
+server:
+  port: {{.Port}}
+  host: "localhost"
+
+database:
+  type: {{.Database}}
+  # Database connection will be configured in database.yaml
+
+paths:
+  models: "./models"
+  config: "./config"
+  admin: "./admin"
+
+development:
+  hotReload: true
+  enableCORS: true
+

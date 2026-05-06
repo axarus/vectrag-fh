@@ -1,0 +1,23 @@
+# Database Configuration
+# Configure your database connection settings here
+
+database:
+  type: {{.Database}}
+  host: "localhost"
+  port: 
+    postgresql: 5432
+    mysql: 3306
+    sqlite: ""
+  name: "{{.ProjectName}}_db"
+  user: "postgres"
+  password: ""
+  
+  # SQLite specific (if using SQLite)
+  path: "./data/database.db"
+  
+  # Connection pool settings
+  pool:
+    maxOpen: 25
+    maxIdle: 5
+    maxLifetime: "5m"
+

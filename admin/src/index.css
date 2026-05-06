@@ -1,0 +1,126 @@
+@plugin "daisyui";
+@import "tailwindcss";
+
+:root {
+    --color-vectra-green-50:  oklch(97% 0.02 160);
+    --color-vectra-green-100: oklch(94% 0.03 160);
+    --color-vectra-green-200: oklch(88% 0.05 155);
+    --color-vectra-green-300: oklch(78% 0.07 150);
+    --color-vectra-green-400: oklch(70% 0.09 150);
+    --color-vectra-green-500: oklch(60% 0.10 150);
+    --color-vectra-green-600: oklch(52% 0.11 150);
+    --color-vectra-green-700: oklch(45% 0.10 150);
+    --color-vectra-green-800: oklch(38% 0.09 150);
+    --color-vectra-green-900: oklch(30% 0.08 150);
+}
+
+@plugin "daisyui/theme" {
+    name: "vectraModern";
+    default: false;
+    color-scheme: light;
+
+    --color-base-100: oklch(98% 0.01 120);
+    --color-base-200: oklch(94% 0.02 120);
+    --color-base-300: oklch(90% 0.03 120);
+    --color-base-content: oklch(25% 0.05 120);
+
+    --color-primary: var(--color-vectra-green-500);
+    --color-primary-content: #ffffff;
+    --color-secondary: var(--color-vectra-green-700);
+    --color-accent: var(--color-vectra-green-300);
+    --color-neutral: oklch(20% 0.02 120);
+    --color-neutral-content: oklch(95% 0.02 120);
+
+    --color-info: oklch(70% 0.10 250);
+    --color-success: var(--color-vectra-green-600);
+    --color-warning: oklch(80% 0.15 90);
+    --color-error: oklch(60% 0.20 25);
+}
+
+@plugin "daisyui/theme" {
+    name: "verdantCalm";
+    default: false;
+    color-scheme: light;
+
+    --color-base-100: oklch(98% 0.01 90);
+    --color-base-200: oklch(95% 0.02 90);
+    --color-base-300: oklch(92% 0.03 90);
+    --color-base-content: oklch(20% 0.02 90);
+
+    --color-primary: oklch(55% 0.08 220);
+    --color-primary-content: #ffffff;
+    --color-secondary: oklch(60% 0.10 140);
+    --color-accent: oklch(75% 0.12 140);
+    --color-neutral: oklch(50% 0.02 90);
+    --color-neutral-content: oklch(95% 0.01 90);
+
+    --color-success: oklch(60% 0.10 140);
+    --color-warning: oklch(85% 0.15 80);
+    --color-error: oklch(60% 0.18 30);
+}
+
+@plugin "daisyui/theme" {
+    name: "tealAccent";
+    default: true;
+    color-scheme: light;
+
+    --color-base-100: #f8f5f2;
+    --color-base-200: #f0ede9;
+    --color-base-300: #e6e3df;
+    --color-base-content: #232323;
+
+    --color-primary: #078080;
+    --color-primary-content: #232323;
+    --color-secondary: #f45d48;
+    --color-accent: #f8f5f2;
+    --color-neutral: #222525;
+    --color-neutral-content: #f8f5f2;
+
+    --color-success: #078080;
+    --color-warning: #f4a261;
+    --color-error: #e45858;
+}
+
+@plugin "daisyui/theme" {
+    name: "indigoAccent";
+    default: false;
+    color-scheme: light;
+
+    --color-base-100: #fffffe;
+    --color-base-200: #f8f8fa;
+    --color-base-300: #f0f0f3;
+    --color-base-content: #2b2c34;
+
+    --color-primary: #6246ea;
+    --color-primary-content: #fffffe;
+    --color-secondary: #d1d1e9;
+    --color-accent: #e45858;
+    --color-neutral: #2b2c34;
+    --color-neutral-content: #fffffe;
+
+    --color-success: #078080;
+    --color-warning: #f4a261;
+    --color-error: #e45858;
+}
+
+@plugin "daisyui/theme" {
+    name: "tealContrast";
+    default: false;
+    color-scheme: light;
+
+    --color-base-100: #484848;
+    --color-base-200: #006465;
+    --color-base-300: #0f928c;
+    --color-base-content: #ffffff;
+
+    --color-primary: #00c9d2;
+    --color-primary-content: #ffffff;
+    --color-secondary: #beee3b;
+    --color-accent: #0f928c;
+    --color-neutral: #484848;
+    --color-neutral-content: #black;
+
+    --color-success: #00c9d2;
+    --color-warning: #beee3b;
+    --color-error: #0f928c;
+}
